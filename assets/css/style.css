@@ -18,7 +18,8 @@ code{background:var(--amber-l);padding:.05em .35em;border-radius:4px;font-size:.
 .skip{position:absolute;left:-999px}.skip:focus{left:10px;top:10px;background:#fff;padding:8px;z-index:9}
 .site-header{background:#fff;border-bottom:1px solid var(--line)}
 .site-header .wrap{display:flex;align-items:center;justify-content:space-between;gap:12px;min-height:60px;flex-wrap:wrap}
-.brand{font-weight:700;font-size:1.25rem;text-decoration:none;color:var(--teal-d)}
+.brand{font-weight:700;font-size:1.25rem;text-decoration:none;color:var(--teal-d);display:inline-flex;align-items:center;gap:10px}
+.brand img{width:30px;height:30px}
 nav a{margin-left:18px;text-decoration:none;font-weight:700}
 .offer{background:var(--amber-l);border-bottom:1px solid #efd9a6;text-align:center;font-size:.95rem}
 .offer p{margin:0;padding:8px 16px}
